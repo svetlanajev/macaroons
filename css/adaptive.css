@@ -1,0 +1,506 @@
+/* 1024 - 1229 */
+@media screen and (max-width: 1229px) {
+    #header-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #main-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #main-image {
+        max-width: 404px;
+    }
+
+    #screen-2-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #screen-2-image {
+        max-width: 509px;
+    }
+
+    #advantage-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #products-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .macaroon {
+        margin: 67px 12px 0 12px;
+    }
+
+    #products-cards {
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    #products-title {
+        margin-bottom: 75px;
+    }
+
+    #order-info-container {
+        margin-left: 20px;
+    }
+
+    #order-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #footer-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #berry {
+        left: 39px
+    }
+}
+
+@media screen and (max-width: 1171px) {
+    #products-container {
+        max-width: 848px;
+    }
+
+    .macaroon {
+        margin-top: 136px;
+    }
+
+    #products-title {
+        margin-bottom: 6px;
+    }
+
+}
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+    #header .phone {
+        display: none;
+    }
+
+    #header-container {
+        justify-content: unset;
+        padding-bottom: 0;
+    }
+
+    #menu {
+        margin-left: 100px;
+    }
+
+    #main-container {
+        flex-wrap: wrap;
+        padding-bottom: 420px;
+        padding-top: 97px;
+        position: relative;
+    }
+
+    #main-image {
+        max-width: 529px;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+
+    #main-image img {
+        max-width: 100%;
+    }
+
+    #screen-2-container {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0;
+        align-items: center;
+    }
+
+
+    #screen-2-title {
+        margin: 0 auto;
+    }
+
+    #screen-2-text {
+        max-width: 671px;
+    }
+
+    #screen-2-image {
+        max-width: 302px;
+    }
+
+    #screen-2-image img {
+        max-width: 100%;
+    }
+
+    #advantage-container {
+        max-width: 542px;
+
+    }
+
+    .bg-circle {
+        margin-left: 70px;
+    }
+    #advantage-info {
+        flex-wrap: wrap;
+    }
+
+    .advantage {
+        text-align: center;
+    }
+
+    .advantage {
+        margin-bottom: 80px;
+    }
+
+    #advantage-info .advantage-title {
+        margin-top: 10px;
+    }
+
+    #advantage-info .number {
+        padding-left: 0;
+    }
+
+
+
+    .macaroon {
+        margin-top: 136px;
+    }
+    #order-container {
+        align-items: flex-end;
+        position: relative;
+        max-width: 800px;
+    }
+
+    #order-info-container {
+        order: 1;
+        margin-left: 0;
+    }
+
+    #order-image {
+        order: 2;
+        position: absolute;
+        right: 5px;
+        bottom: -25px;
+    }
+
+    #berry {
+        top: 340px;
+        left: 350px;
+    }
+
+    #berry-copy {
+        top: 120px;
+        right: -220px;
+    }
+}
+@media screen and (max-width: 601px) {
+    #burger {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu.open {
+        display: flex;
+    }
+
+    #menu svg {
+        display: block;
+        width: 24px;
+        fill: white;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #menu{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding-top: 30px;
+        background: #100205d6;
+        top: 0;
+        left: 0;
+        z-index: 5;
+    }
+
+    #menu a.menu-items {
+        color: white;
+        margin: 15px 5px;
+    }
+
+    #products-title {
+        font-size: 30px;
+    }
+
+
+}
+/* 425 - 767 */
+@media screen and (max-width: 767px) {
+
+    #header-container {
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 29pt;
+    }
+
+    #main-container {
+        padding-bottom: 288px;
+        justify-content: center;
+    }
+    #main-text {
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    #main-action .button {
+        margin: 0 auto;
+    }
+
+    #berry-copy {
+        display: none;
+    }
+
+    #main-image {
+        max-width: 250px;
+        bottom: 16px;
+        right: calc(50% - 127px);
+    }
+
+    #main-image img {
+        max-width: 100%;
+    }
+
+    #screen-2-title {
+        font-size: 31px;
+    }
+
+    #screen-2-text {
+        margin-top: 40px;
+    }
+
+    #advantage-container {
+        margin: 0 auto;
+    }
+
+
+    #advantage-container {
+        padding-bottom: 20px;
+    }
+
+
+    #products-container {
+        padding: 100px 0;
+    }
+
+    .macaroon {
+        margin-top: 100px;
+    }
+
+    #products-title {
+        margin-bottom: 37px;
+    }
+
+
+    #order-container {
+        padding: 100px 20px 80px 20px;
+        justify-content: center;
+    }
+
+    #order-info-title {
+        font-size: 30px;
+    }
+
+    #order-info-text {
+        margin-top: 44px;
+        margin-bottom: 35px;
+        max-width: 345px;
+        font-size: 16px;
+    }
+
+    #order-image img {
+        display: none;
+    }
+
+    #berry {
+        top: 230px;
+        left: calc(70% - 50px);
+    }
+
+
+    #order-form input {
+        width: 385px;
+    }
+
+    #order-form .order-button {
+        width: 385px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    #footer-container .phone {
+        order: 2;
+        padding-top: 40px;
+    }
+
+    #instagram {
+        order: 3;
+        padding-top: 40px;
+    }
+
+    #rights {
+        order: 4;
+        padding-top: 40px;
+    }
+
+    #rights {
+        display: none;
+    }
+
+    #footer-container #rights-copy {
+        display: block;
+        font-size: 12px;
+        color: rgb(227, 172, 180);
+        order: 4;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+    #products-title {
+        margin-bottom: 120px;
+    }
+
+    .macaroon {
+        margin-top: 140px;
+    }
+
+    .macaroon:first-child {
+        margin-top: 0;
+    }
+
+}
+@media screen and (max-width: 479px) {
+    #advantage-info .advantage-text {
+        width: 165px;
+        font-size: 13px;
+    }
+
+    .bg-circle {
+        margin-left: 48px;
+    }
+
+    #berry {
+        left: 280px;
+    }
+}
+
+/* 375 - 424 */
+@media screen and (max-width: 424px) {
+    #order-form input {
+        width: 343px;
+    }
+
+    #order-form .order-button {
+        width: 343px;
+    }
+
+    #advantage-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #main-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #order-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .advantage-title {
+        font-size: 18px;
+    }
+
+    .advantage-text {
+        font-size: 13px;
+        width: 165px;
+    }
+}
+
+
+/* 320 - 374 */
+@media screen and (max-width: 374px) {
+    h1 {
+        font-size: 26px;
+        max-width: 280px;
+    }
+
+    #main-text {
+        font-size: 16px;
+        max-width: 280px;
+    }
+
+    #main-image {
+        right: 30px;
+    }
+
+    #screen-2-title {
+        font-size: 26px;
+    }
+
+    #screen-2-text {
+        font-size: 14px;
+    }
+
+    #advantage-info {
+        justify-content: center;
+    }
+
+    #order-form input {
+        width: 280px;
+    }
+
+    #order-form .order-button {
+        width: 280px;
+    }
+
+    #order-info-text {
+        max-width: 300px;
+    }
+
+    #berry {
+        left: 200px;
+    }
+
+    #advantage-info .advantage-text {
+        width: 280px;
+    }
+
+    .bg-circle {
+        margin-left: 103px;
+    }
+}
